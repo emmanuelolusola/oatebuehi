@@ -2,6 +2,8 @@ import React from "react";
 import Navbar from "./Navbar";
 import bg from "../../assets/hero_bg.svg";
 import Hero from "./Hero";
+import NavMobile from "./NavMobile";
+import Footer from "./Footer";
 
 const Home = () => {
   return (
@@ -15,6 +17,8 @@ const Home = () => {
       </div>
       <Navbar />
       <Hero />
+      <NavMobile />
+      <Footer />
     </div>
   );
 };
